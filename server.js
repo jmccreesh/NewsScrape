@@ -28,10 +28,8 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // Database configuration with mongoose
-// mongoose.connect("mongodb://localhost/scraper");
 
-
-const MONGO = process.env.MONGODB_URI || 'mongodb://localhost/nyt';
+const MONGO = process.env.MONGODB_URI || 'mongodb://localhost/scrape';
 
 mongoose.connect(MONGO);
 
