@@ -4,7 +4,7 @@ body {
 
 #wrapper {
   width: 960px;
-  margin-left: 10px;
+  margin-left: auto;
   margin-right: auto;
   padding-top: 10%;
 }
@@ -20,10 +20,6 @@ body {
   float: right;
   width: 30%;
 }
-#link {
-  float: right;
-  width: 30%;
-}
 
 textarea,
 input {
@@ -35,7 +31,7 @@ input {
 
 input {
   height: 36px;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 textarea {
